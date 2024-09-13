@@ -1,0 +1,66 @@
+{
+  "title": "Action",
+  "description": "When you do something other than moving or communicating, you typically take an action.",
+  "contents": [
+    {
+      "name": "Attack",
+      "summary": "Attack with a weapon or an Unarmed Strike.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#AttackAction"
+    },
+    {
+      "name": "Dash",
+      "summary": "For the rest of the turn, give yourself extra movement equal to your Speed.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DashAction"
+    },
+    {
+      "name": "Disengage",
+      "summary": "Your movement doesn’t provoke Opportunity Attack for the rest of the turn.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DisengageAction"
+    },
+    {
+      "name": "Dodge",
+      "summary": "Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DodgeAction"
+    },
+    {
+      "name": "Help",
+      "summary": "Help another creature’s ability check or attack roll, or administer first aid.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HelpAction"
+    },
+    {
+      "name": "Hide",
+      "summary": "Make a Dexterity (Stealth) check.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HideAction"
+    },
+    {
+      "name": "Influence",
+      "summary": "Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature’s attitude.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InfluenceAction"
+    },
+    {
+      "name": "Magic",
+      "summary": "Cast a spell, use a magic item, or use a magical feature.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#MagicAction"
+    },
+    {
+      "name": "Ready",
+      "summary": "Prepare to take an action in response to a trigger you define.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ReadyAction"
+    },
+    {
+      "name": "Search",
+      "summary": "Make a Wisdom (Insight, Medicine, Perception, or Survival) check.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction"
+    },
+    {
+      "name": "Study",
+      "summary": "Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction"
+    },
+    {
+      "name": "Utilize",
+      "summary": "Use a nonmagical object.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UtilizeAction"
+    }
+  ]
+}

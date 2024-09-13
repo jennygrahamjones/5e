@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 
-type ContainerItem = { name: string; summary?: string };
+type ContainerItem = { name: string; summary?: string; ddbLink?: string };
 
-const Item = ({ name, summary }: ContainerItem) => {
+const Item = ({ name, summary, ddbLink }: ContainerItem) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -12,7 +12,6 @@ const Item = ({ name, summary }: ContainerItem) => {
       <div
         className="container-item"
         onClick={() => {
-          // todo: display a modal containing the item's full details with reference to the PHB
           if (summary) {
             setShowModal(true);
           }
@@ -22,12 +21,19 @@ const Item = ({ name, summary }: ContainerItem) => {
       </div>
       {showModal && (
         <div
-          className="fixed inset-0 flex flex-col justify-center items-center bg-gray-900 bg-opacity-50 z-50"
+          className="fixed inset-0 flex flex-col justify-center items-center bg-gray-900 bg-opacity-50 z-50 modal"
           onClick={() => setShowModal(false)}
         >
           <div className="modal-content">
             <h1>{name}</h1>
             <p>{summary}</p>
+            {ddbLink && (
+              <p>
+                <a href={ddbLink} target="blank">
+                  View on D&D Beyond
+                </a>
+              </p>
+            )}
           </div>
         </div>
       )}
@@ -35,7 +41,7 @@ const Item = ({ name, summary }: ContainerItem) => {
   );
 };
 
-type ContainerProps = {
+export type ContainerProps = {
   title: string;
   description?: string;
   contents?: ContainerItem[];
@@ -46,10 +52,12 @@ export const Container = ({ title, description, contents }: ContainerProps) => {
     <>
       <div className="container">
         <h1>{title}</h1>
-        <p className="description">{description}</p>
-        {contents?.map((item) => {
-          return <Item key={contents.indexOf(item)} {...item} />;
-        })}
+        <div className="container-body">
+          <p className="description">{description}</p>
+          {contents?.map((item) => {
+            return <Item key={contents.indexOf(item)} {...item} />;
+          })}
+        </div>
       </div>
     </>
   );

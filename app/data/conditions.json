@@ -1,0 +1,22 @@
+{
+    "title": "Conditions",
+    "description":
+      "Many effects impose a condition, a temporary state that alters the recipient’s capabilities.",
+    "contents": [
+      { "name": "Blinded" },
+      { "name": "Charmed" },
+      { "name": "Deafened" },
+      { "name": "Exhaustion" },
+      { "name": "Frightened" },
+      { "name": "Grappled" },
+      { "name": "Incapacitated" },
+      { "name": "Invisible" },
+      { "name": "Paralyzed" },
+      { "name": "Petrified" },
+      { "name": "Poisoned" },
+      { "name": "Prone" },
+      { "name": "Restrained" },
+      { "name": "Stunned" },
+      { "name": "Unconscious" }
+    ]
+  }

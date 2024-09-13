@@ -15,10 +15,15 @@ export default function RootLayout({
     <html lang="en">
       <body>{children}</body>
       <div className="footer">
-        Inspired by the{" "}
-        <a href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html">
-          dnd5e-quickref
-        </a>
+        <p>
+          Inspired by the{" "}
+          <a
+            href="https://crobi.github.io/dnd5e-quickref/preview/quickref.html"
+            target="blank"
+          >
+            dnd5e-quickref
+          </a>
+        </p>
       </div>
     </html>
   );
