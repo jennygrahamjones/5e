@@ -1,101 +1,110 @@
-import Image from "next/image";
+import { Container } from "./container";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const sections = [
+    {
+      title: "Action",
+      description:
+        "When you do something other than moving or communicating, you typically take an action.",
+      contents: [
+        {
+          name: "Attack",
+          summary: "Attack with a weapon or an Unarmed Strike.",
+        },
+        {
+          name: "Dash",
+          summary:
+            "For the rest of the turn, give yourself extra movement equal to your Speed.",
+        },
+        {
+          name: "Disengage",
+          summary:
+            "Your movement doesn’t provoke Opportunity Attack for the rest of the turn.",
+        },
+        {
+          name: "Dodge",
+          summary:
+            "Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0.",
+        },
+        {
+          name: "Help",
+          summary:
+            "Help another creature’s ability check or attack roll, or administer first aid.",
+        },
+        { name: "Hide", summary: "Make a Dexterity (Stealth) check." },
+        {
+          name: "Influence",
+          summary:
+            "Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature’s attitude.",
+        },
+        {
+          name: "Magic",
+          summary: "Cast a spell, use a magic item, or use a magical feature.",
+        },
+        {
+          name: "Ready",
+          summary:
+            "Prepare to take an action in response to a trigger you define.",
+        },
+        {
+          name: "Search",
+          summary:
+            "Make a Wisdom (Insight, Medicine, Perception, or Survival) check.",
+        },
+        {
+          name: "Study",
+          summary:
+            "Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check.",
+        },
+        { name: "Utilize", summary: "Use a nonmagical object." },
+      ],
+    },
+    {
+      title: "Bonus Action",
+      description:
+        "You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action.",
+    },
+    {
+      title: "Reaction",
+      description:
+        "A Reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s. ",
+    },
+    {
+      title: "Conditions",
+      description:
+        "Many effects impose a condition, a temporary state that alters the recipient’s capabilities.",
+      contents: [
+        { name: "Blinded" },
+        { name: "Charmed" },
+        { name: "Deafened" },
+        { name: "Exhaustion" },
+        { name: "Frightened" },
+        { name: "Grappled" },
+        { name: "Incapacitated" },
+        { name: "Invisible" },
+        { name: "Paralyzed" },
+        { name: "Petrified" },
+        { name: "Poisoned" },
+        { name: "Prone" },
+        { name: "Restrained" },
+        { name: "Stunned" },
+        { name: "Unconscious" },
+      ],
+    },
+  ];
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+  return (
+    <div>
+      {sections.map((section) => {
+        return (
+          <Container
+            key={sections.indexOf(section)}
+            title={section.title}
+            description={section.description}
+            contents={section.contents}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        );
+      })}
     </div>
   );
 }
