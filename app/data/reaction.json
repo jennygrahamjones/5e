@@ -7,6 +7,11 @@
               "name": "Opportunity Attack",
               "summary": "When a creature that you can see leaves your reach using an action or one of its speeds, you make one melee attack with a weapon or an Unarmed Strike against the provoking creature. The attack occurs right before the creature leaves your reach.",
               "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#OpportunityAttack"
+          },
+          {
+              "name": "Readied Action or Movement",
+              "summary": "When the trigger of your previous Ready action occurs, you can either take your specified Reaction right after the trigger finishes (which can be an action or moving up to your Speed) or ignore the trigger.",
+              "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ReadyAction"
           }
       ]
 }   
