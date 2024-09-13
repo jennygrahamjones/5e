@@ -1,7 +1,6 @@
 {
     "title": "Bonus Action",
-    "description":
-      "You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action.",
+    "description": "You can take a single Bonus Action on your turn if a rule explicitly says so.",
     "contents": [
         {
             "name": "Potion of Healing",
