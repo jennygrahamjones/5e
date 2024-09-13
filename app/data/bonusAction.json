@@ -1,6 +1,11 @@
 {
     "title": "Bonus Action",
-    "description":
-      "You can take a Bonus Action only when a special ability, a spell, or another feature of the game states that you can do something as a Bonus Action.",
-    "contents": []
+    "description": "You can take a single Bonus Action on your turn if a rule explicitly says so.",
+    "contents": [
+        {
+            "name": "Potion of Healing",
+            "summary": "You can drink or administer a potion of healing to another creature within 5 feet of yourself. The creature that drinks the potion regains 2d4 + 2 Hit Points.",
+            "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/equipment#PotionofHealing50GP"
+        }
+    ]
   }
