@@ -11,7 +11,7 @@ const Item = ({ name, summary }: ContainerItem) => {
     <>
       <div
         className="container-item"
-        onClick={(e) => {
+        onClick={() => {
           // todo: display a modal containing the item's full details with reference to the PHB
           if (summary) {
             setShowModal(true);
@@ -23,7 +23,7 @@ const Item = ({ name, summary }: ContainerItem) => {
       {showModal && (
         <div
           className="fixed inset-0 flex flex-col justify-center items-center bg-gray-900 bg-opacity-50 z-50"
-          onClick={(e) => setShowModal(false)}
+          onClick={() => setShowModal(false)}
         >
           <div className="modal-content">
             <h1>{name}</h1>
