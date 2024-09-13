@@ -3,7 +3,7 @@
     border-color: rgb(124, 25, 17);
     border-width: thick;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
     position: relative;
     height: fit-content;
 }
@@ -37,9 +37,15 @@ h1 {
     border-color: rgb(124, 25, 17);
     padding: 5px;
   }
-
+  
   .modal-content {
+    border-radius: 5px;
+    margin-top: 30vh;
     position:relative;
     background-color: white;
-    padding: 15px;
+    max-width: 50vw;
+
+    h1, p {
+      padding: 10px
+    }
   }

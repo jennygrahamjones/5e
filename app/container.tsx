@@ -21,7 +21,7 @@ const Item = ({ name, summary, ddbLink }: ContainerItem) => {
       </div>
       {showModal && (
         <div
-          className="fixed inset-0 flex flex-col justify-center items-center bg-gray-900 bg-opacity-50 z-50 modal"
+          className="fixed inset-0 flex flex-col items-center bg-gray-900 bg-opacity-70 z-50 modal"
           onClick={() => setShowModal(false)}
         >
           <div className="modal-content">
@@ -54,9 +54,11 @@ export const Container = ({ title, description, contents }: ContainerProps) => {
         <h1>{title}</h1>
         <div className="container-body">
           <p className="description">{description}</p>
-          {contents?.map((item) => {
-            return <Item key={contents.indexOf(item)} {...item} />;
-          })}
+          {contents
+            ?.sort((a, b) => (a.name > b.name ? 1 : -1))
+            .map((item) => {
+              return <Item key={contents.indexOf(item)} {...item} />;
+            })}
         </div>
       </div>
     </>
