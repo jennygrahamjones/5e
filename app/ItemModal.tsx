@@ -15,7 +15,7 @@ export const ItemModal = ({
 }: ItemModalProps) => {
   return (
     <div
-      className="fixed inset-0 flex flex-col items-center bg-gray-900 bg-opacity-70 z-50 modal"
+      className="fixed inset-0 top-0 left-0 w-full h-full flex flex-col items-center bg-gray-900 bg-opacity-70 z-50 modal outline-none overflow-x-hidden overflow-y-auto"
       onClick={() => setShowModal(false)}
     >
       <div className="modal-content">

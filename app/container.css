@@ -40,10 +40,10 @@ h1 {
   
   .modal-content {
     border-radius: 5px;
-    margin-top: 30vh;
+    margin-top: 3vh;
     position:relative;
     background-color: var(--background);
-    max-width: 50vw;
+    max-width: 80vw;
 
     h1, p {
       padding: 10px
