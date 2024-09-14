@@ -11,6 +11,7 @@ const Item = ({ name, summary, ddbLink }: ContainerItem) => {
     <>
       <div
         className="container-item"
+        style={{ cursor: "pointer" }}
         onClick={() => {
           if (summary) {
             setShowModal(true);
@@ -44,14 +45,24 @@ const Item = ({ name, summary, ddbLink }: ContainerItem) => {
 export type ContainerProps = {
   title: string;
   description?: string;
+  ddbLink?: string;
   contents?: ContainerItem[];
 };
 
-export const Container = ({ title, description, contents }: ContainerProps) => {
+export const Container = ({
+  title,
+  description,
+  contents,
+  ddbLink,
+}: ContainerProps) => {
   return (
     <>
       <div className="container">
-        <h1>{title}</h1>
+        <h1>
+          <a href={ddbLink} target="blank">
+            {title}
+          </a>
+        </h1>
         <div className="container-body">
           <p className="description">{description}</p>
           {contents

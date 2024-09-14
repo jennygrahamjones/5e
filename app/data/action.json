@@ -1,6 +1,7 @@
 {
   "title": "Action",
   "description": "When you do something other than moving or communicating, you typically take an action.",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Action",
   "contents": [
     {
       "name": "Attack",
