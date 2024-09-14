@@ -1,6 +1,6 @@
 .container {
     border-style: solid;
-    border-color: rgb(124, 25, 17);
+    border-color: var(--ddb-red);
     border-width: thick;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -9,10 +9,10 @@
 }
 
 .container-body {
-  background-color: white;
+  background-color: var(--background);
   border-style: solid;
   border-radius: 10px;
-  border-color: white;
+  border-color: var(--background);
   border-width: thick;
 }
 
@@ -20,7 +20,7 @@ h1 {
     font-weight: bold;
     padding: 5px;
     font-size: 18px;
-    background-color: rgb(124, 25, 17);
+    background-color: var(--ddb-red);
     color: white;
   }
 
@@ -34,7 +34,7 @@ h1 {
     display: inline-flex;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(124, 25, 17);
+    border-color: var(--ddb-red);
     padding: 5px;
   }
   
@@ -42,13 +42,13 @@ h1 {
     border-radius: 5px;
     margin-top: 30vh;
     position:relative;
-    background-color: white;
+    background-color: var(--background);
     max-width: 50vw;
 
     h1, p {
       padding: 10px
     }
 
-    a { color: blue; }
+    a { color: var(--link); }
     svg { display: inline;}
   }
