@@ -69,9 +69,7 @@
       },
       {
           "name": "Stunned",
-          "summary": "You have the Incapacitated condition, you automatically fail Strength and Dexterity saving throws.
-
-Attacks Affected. Attack rolls against you have Advantage.",
+          "summary": "You have the Incapacitated condition, you automatically fail Strength and Dexterity saving throws, and attack rolls against you have Advantage.",
           "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StunnedCondition"
       },
       {
