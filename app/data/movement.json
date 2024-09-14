@@ -1,0 +1,32 @@
+{
+  "title": "Movement",
+  "description": "On your turn, you can move a distance equal to your Speed or less. Or you can decide not to move. Your movement can include climbing, crawling, jumping, and swimming. These different modes of movement can be combined with your regular movement, or they can constitute your entire move.",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Speed",
+  "contents": [
+    {
+      "name": "Climbing",
+      "summary": "While you’re climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb.<br/><br/>At the DM’s option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Climbing"
+    },
+    {
+      "name": "Crawling",
+      "summary": "While you’re crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain).",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Crawling"
+    },
+    {
+      "name": "Flying",
+      "summary": "A variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Flying"
+    },
+    {
+      "name": "Jumping",
+      "summary": "When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical).<br/><br/><strong>Long Jump.</strong> When you make a Long Jump, you leap horizontally a number of feet up to your Strength score if you move at least 10 feet immediately before the jump. When you make a standing Long Jump, you can leap only half that distance. Either way, each foot you jump costs a foot of movement. If you land in Difficult Terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the Prone condition.<br/><br/><strong>High Jump.</strong> When you make a High Jump, you leap into the air a number of feet equal to 3 plus your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing High Jump, you can jump only half that distance. Either way, each foot of the jump costs a foot of movement. You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus 1½ times your height.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Jumping"
+    },
+    {
+      "name": "Swimming",
+      "summary": "While you’re swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the DM’s option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Swimming"
+    }
+  ]
+}

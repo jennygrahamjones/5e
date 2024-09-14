@@ -1,0 +1,53 @@
+{
+  "title": "Vision and Light",
+  "description": "Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight.",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/playing-the-game#VisionandLight",
+  "contents": [
+    {
+      "name": "Darkvision",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkvision",
+      "summary": "If you have Darkvision, you can see in Dim Light within a specified range as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray."
+    },
+    {
+      "name": "Blindsight",
+      "summary": "If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn’t behind Total Cover even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can see something that has the Invisible condition.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#senseBlindsightsense"
+    },
+    {
+      "name": "Truesight",
+      "summary": "If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following:<br/><br/><strong>Darkness.</strong> You can see in normal and magical Darkness.<br/><br/><strong>Invisibility.</strong> You see creatures and objects that have the Invisible condition.<br/><br/><strong>Visual Illusions.</strong> Visual illusions appear transparent to you, and you automatically succeed on saving throws against them.<br/><br/><strong>Transformations.</strong> You discern the true form of any creature or object you see that has been transformed by magic.<br/><br/><strong>Ethereal Plane.</strong> You see into the Ethereal Plane.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#senseTruesightsense"
+    },
+
+    {
+      "name": "Tremorsense",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#senseTremorsensesense",
+      "summary": "A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it is detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.<br/><br/>Tremorsense can’t detect creatures or objects in the air, and it doesn’t count as a form of sight."
+    },
+    {
+      "name": "Dim Light",
+      "summary": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DimLight",
+      "ddbLink": "An area with Dim Light is Lightly Obscured."
+    },
+    {
+      "name": "Bright Light",
+      "summary": "Bright Light is normal illumination.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BrightLight"
+    },
+    {
+      "name": "Darkness",
+      "summary": "An area of Darkness is Heavily Obscured. ",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Darkness"
+    },
+    {
+      "name": "Lightly Obscured",
+      "summary": "You have Disadvantage on Wisdom (Perception) checks to see something in a Lightly Obscured space.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#LightlyObscured"
+    },
+    {
+      "name": "Heavily Obscured",
+      "summary": "You have the Blinded condition while trying to see something in a Heavily Obscured space.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HeavilyObscured"
+    }
+  ]
+}

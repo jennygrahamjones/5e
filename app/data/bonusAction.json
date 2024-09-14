@@ -1,11 +1,12 @@
 {
-    "title": "Bonus Action",
-    "description": "You can take a single Bonus Action on your turn if a rule explicitly says so.",
-    "contents": [
-        {
-            "name": "Potion of Healing",
-            "summary": "You can drink or administer a potion of healing to another creature within 5 feet of yourself. The creature that drinks the potion regains 2d4 + 2 Hit Points.",
-            "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/equipment#PotionofHealing50GP"
-        }
-    ]
-  }
+  "title": "Bonus Action",
+  "description": "You can take a single Bonus Action on your turn if a rule explicitly says so.",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BonusAction",
+  "contents": [
+    {
+      "name": "Potion of Healing",
+      "summary": "You can drink or administer a potion of healing to another creature within 5 feet of yourself. The creature that drinks the potion regains 2d4 + 2 Hit Points.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/equipment#PotionofHealing50GP"
+    }
+  ]
+}
