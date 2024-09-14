@@ -6,7 +6,6 @@
     margin-bottom: 10px;
     position: relative;
     height: fit-content;
-    width: 100%;
 }
 
 .container-body {
@@ -49,10 +48,4 @@ h1 {
     h1, p {
       padding: 10px
     }
-  }
-
-  .link-icon {
-    color: white;
-    display:inline;
-    margin-left: 5px;
   }
