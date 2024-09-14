@@ -1,22 +1,83 @@
 {
     "title": "Conditions",
-    "description":
-      "Many effects impose a condition, a temporary state that alters the recipient’s capabilities.",
+    "description": "A condition is a temporary game state. The definition of a condition says how it affects its recipient, and various rules define how to end a condition.",
     "contents": [
-      { "name": "Blinded" },
-      { "name": "Charmed" },
-      { "name": "Deafened" },
-      { "name": "Exhaustion" },
-      { "name": "Frightened" },
-      { "name": "Grappled" },
-      { "name": "Incapacitated" },
-      { "name": "Invisible" },
-      { "name": "Paralyzed" },
-      { "name": "Petrified" },
-      { "name": "Poisoned" },
-      { "name": "Prone" },
-      { "name": "Restrained" },
-      { "name": "Stunned" },
-      { "name": "Unconscious" }
+      {
+          "name": "Blinded",
+          "summary": "You can’t see and automatically fail any ability check that requires sight, attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BlindedCondition"
+      },
+      {
+          "name": "Charmed",
+          "summary": "You can’t attack the charmer or target the charmer with damaging abilities or magical effects, and the charmer has Advantage on any ability check to interact with you socially.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#CharmedCondition"
+      },
+      {
+          "name": "Deafened",
+          "summary": "You can’t hear and automatically fail any ability check that requires hearing.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DeafenedCondition"
+      },
+      {
+          "name": "Exhaustion",
+          "summary": "You gain 1 Exhaustion level each time you receive this condition. Your D20 Tests are reduced by 2 times your Exhaustion level, and your Speed is reduced by 5 times your Exhaustion level. At Exhaustion level 6, you die. Finishing a Long Rest removes 1 Exhaustion level. At Exhaustion level 0, the condition ends.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ExhaustionCondition"
+      },
+      {
+          "name": "Frightened",
+          "summary": "You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight, and you can’t willingly move closer to the source of fear.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FrightenedCondition"
+      },
+      {
+          "name": "Grappled",
+          "summary": "Your Speed is 0 and can’t increase, you have Disadvantage on attack rolls against any target other than the grappler, and the grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition"
+      },
+      {
+          "name": "Incapacitated",
+          "summary": "You can’t take any actions, your Concentration is broken, you can’t speak, and you have Disadvantage on Initiative rolls.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#IncapacitatedCondition"
+      },
+      {
+          "name": "Invisible",
+          "summary": "You have Advantage on Initiative rolls. Additionally, you and any equipment you are wearing or carrying aren’t affected by any effect that requires its target to be seen, attack rolls against you have Disadvantage, and your attack rolls have Advantage, but if a creature can somehow see you, you don’t gain these benefits against that creature.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InvisibleCondition"
+      },
+      {
+          "name": "Paralyzed",
+          "summary": "You have the Incapacitated condition, your Speed is 0 and can’t increase, you automatically fail Strength and Dexterity saving throws, attack rolls against you have Advantage, and any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ParalyzedCondition"
+      },
+      {
+          "name": "Petrified",
+          "summary": "You and any nonmagical objects you are wearing and carrying transformed into a solid inanimate substance, your weight increases by a factor of ten, you cease aging, you have the Incapacitated condition, your Speed is 0 and can’t increase, attack rolls against you have Advantage, you automatically fail Strength and Dexterity saving throws, you have Resistance to all damage, and you have Immunity to the Poisoned condition.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#PetrifiedCondition"
+      },
+      {
+          "name": "Poisoned",
+          "summary": "You have Disadvantage on attack rolls and ability checks.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#PoisonedCondition"
+      },
+      {
+          "name": "Prone",
+          "summary": "You can only move by crawling or by spending an amount of movement equal to half your Speed to right yourself and end the condition (unless your Speed is 0), you have Disadvantage on attack rolls, and attack rolls against you have Advantage if the attacker is within 5 feet of you or Disadvantage if not.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition"
+      },
+      {
+          "name": "Restrained",
+          "summary": "Your Speed is 0 and can’t increase, attack rolls against you have Advantage, and you have Disadvantage on attack rolls and Dexterity saving throws.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition"
+      },
+      {
+          "name": "Stunned",
+          "summary": "You have the Incapacitated condition, you automatically fail Strength and Dexterity saving throws.
+
+Attacks Affected. Attack rolls against you have Advantage.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StunnedCondition"
+      },
+      {
+          "name": "Unconscious",
+          "summary": "You have the Incapacitated and Prone conditions, you drop whatever you’re holding, your Speed is 0 and can’t increase, attack rolls against you have Advantage, you automatically fail Strength and Dexterity saving throws, attack rolls that hit you are Critical Hits if the attacker is within 5 feet of you, and you’re unaware of your surroundings. When this condition ends, you remain Prone.",
+          "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UnconsciousCondition"
+      }
     ]
   }
