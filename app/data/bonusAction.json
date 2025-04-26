@@ -10,7 +10,7 @@
     },
     {
       "name": "Cast a Spell",
-      "summary": "You cast a spell with a casting time of a Bonus Action. Some spells that have a casting time of a Bonus Action are cast in response to a trigger defined in the spell.",
+      "summary": "You cast a spell with a casting time of a Bonus Action, some of which are cast in response to a trigger defined in the spell.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/spells#ReactionandBonusActionTriggers"
     },
     {
