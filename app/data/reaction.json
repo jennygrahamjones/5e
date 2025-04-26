@@ -9,13 +9,18 @@
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/spells#ReactionandBonusActionTriggers"
     },
     {
+      "name": "Hit Surface Head or Feet First",
+      "summary": "In response to falling into water or another liquid (see Hazards > Falling), you make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to attempt to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#FallingHazard"
+    },
+    {
       "name": "Opportunity Attack",
       "summary": "When a creature that you can see leaves your reach using an action or one of its speeds, you make one melee attack with a weapon or an Unarmed Strike against the provoking creature. The attack occurs right before the creature leaves your reach.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#OpportunityAttack"
     },
     {
       "name": "Readied Action or Movement",
-      "summary": "When the trigger of your previous Ready action occurs, you can either take your specified Reaction right after the trigger finishes (which can be an action or moving up to your Speed) or ignore the trigger.",
+      "summary": "When the trigger of your previous Ready action occurs, you can either take your specified Reaction right after the trigger finishes (which can be an action or moving up to your Speed) or ignore the trigger.<br/><br/>To ready a spell, it must have a casting time of an action, and you must maintain Concentration. If your Concentration is broken, the spell dissipates without taking effect.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#ReadyAction"
     }
   ]
