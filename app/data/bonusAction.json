@@ -4,6 +4,16 @@
   "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#BonusAction",
   "contents": [
     {
+      "name": "Attack with a Light Weapon",
+      "summary": "When you take the Attack action with a Light weapon, on the same turn, you can make one extra attack as a Bonus Action with a different Light weapon. This extra attack doesn't add your ability modifier to its damage roll unless the modifier is negative.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Light"
+    },
+    {
+      "name": "Cast a Spell",
+      "summary": "Cast a spell with a casting time of a Bonus Action.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/spells#ReactionandBonusActionTriggers"
+    },
+    {
       "name": "Use a Potion",
       "summary": "Drink a potion or administer it to another creature.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#Potions"
