@@ -4,6 +4,11 @@
   "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Speed",
   "contents": [
     {
+      "name": "Burrowing",
+      "summary": "If you have a Burrow Speed, you can use it to move through sand, earth, mud, or ice, but not through solid rock unless you have a trait that allows you to do so.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#BurrowSpeed"
+    },
+    {
       "name": "Climbing",
       "summary": "While you’re climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb.<br/><br/>At the DM’s option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Climbing"
