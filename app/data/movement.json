@@ -14,6 +14,11 @@
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Crawling"
     },
     {
+      "name": "Dropping Prone",
+      "summary": "On your turn, you can give yourself the Prone condition (see Conditions > Prone) without using an action or your Speed, but you can’t do so if your Speed is 0."
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game#DroppingProne"
+    },
+    {
       "name": "Flying",
       "summary": "A variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Flying"
