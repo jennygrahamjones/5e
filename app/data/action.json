@@ -4,9 +4,14 @@
   "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Action",
   "contents": [
     {
-      "name": "Attack",
-      "summary": "Attack with a weapon, or use an Unarmed Strike to damage, grapple, or shove a target within 5 feet.",
+      "name": "Attack (Weapon)",
+      "summary": "Attack with a weapon.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#AttackAction"
+    },
+    {
+      "name": "Attack (Unarmed Strike)",
+      "summary": "Use an Unarmed Strike to damage, grapple, or shove a target within 5 feet.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#UnarmedStrike"
     },
     {
       "name": "Dash",
