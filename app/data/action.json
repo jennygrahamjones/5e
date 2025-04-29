@@ -35,7 +35,7 @@
     },
     {
       "name": "Hide",
-      "summary": "Make a DC 15 Dexterity (Stealth) check while Heavily Obscured or behind Three-Quarters or Total Cover and out of an enemy's line of sight. On a success, you have the Invisible condition while hidden. For a creature to find you, it must succeed on a Wisdom (Perception) check using your original Dexterity (Stealth) check as the DC; otherwise, you stop being hidden if you make a sound, make an attack roll, or cast a spell with a Verbal component.",
+      "summary": "Make a DC 15 Dexterity (Stealth) check while Heavily Obscured or behind Three-Quarters or Total Cover (see Cover) and out of an enemy's line of sight. On a success, you have the Invisible condition while hidden. For a creature to find you, it must succeed on a Wisdom (Perception) check using your original Dexterity (Stealth) check as the DC; otherwise, you stop being hidden if you make a sound, make an attack roll, or cast a spell with a Verbal component.",
       "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#HideAction"
     },
     {
