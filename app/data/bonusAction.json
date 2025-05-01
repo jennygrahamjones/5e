@@ -1,12 +1,22 @@
 {
   "title": "Bonus Action",
   "description": "You can take a single Bonus Action on your turn if a rule explicitly says so.",
-  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BonusAction",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#BonusAction",
   "contents": [
     {
-      "name": "Potion of Healing",
-      "summary": "You can drink or administer a potion of healing to another creature within 5 feet of yourself. The creature that drinks the potion regains 2d4 + 2 Hit Points.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/equipment#PotionofHealing50GP"
+      "name": "Attack with a Light Weapon",
+      "summary": "When you take the Attack action with a Light weapon, on the same turn, you can make one extra attack as a Bonus Action with a different Light weapon. This extra attack doesn't add your ability modifier to its damage roll unless the modifier is negative.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Light"
+    },
+    {
+      "name": "Cast a Spell",
+      "summary": "You cast a spell with a casting time of a Bonus Action, some of which are cast in response to a trigger defined in the spell.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/spells#ReactionandBonusActionTriggers"
+    },
+    {
+      "name": "Use a Potion",
+      "summary": "Drink a potion or administer it to another creature.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#Potions"
     }
   ]
 }

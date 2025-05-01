@@ -1,67 +1,72 @@
 {
   "title": "Action",
   "description": "When you do something other than moving or communicating, you typically take an action.",
-  "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Action",
+  "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Action",
   "contents": [
     {
-      "name": "Attack",
-      "summary": "Attack with a weapon or an Unarmed Strike.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#AttackAction"
+      "name": "Attack (Weapon)",
+      "summary": "Attack with a weapon.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#AttackAction"
+    },
+    {
+      "name": "Attack (Unarmed Strike)",
+      "summary": "Use an Unarmed Strike to damage, grapple, or shove a target within 5 feet.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#UnarmedStrike"
     },
     {
       "name": "Dash",
       "summary": "For the rest of the turn, give yourself extra movement equal to your Speed.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DashAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#DashAction"
     },
     {
       "name": "Disengage",
       "summary": "Your movement doesn’t provoke Opportunity Attack for the rest of the turn.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DisengageAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#DisengageAction"
     },
     {
       "name": "Dodge",
       "summary": "Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#DodgeAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#DodgeAction"
     },
     {
       "name": "Help",
       "summary": "Help another creature’s ability check or attack roll, or administer first aid.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HelpAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#HelpAction"
     },
     {
       "name": "Hide",
-      "summary": "Make a Dexterity (Stealth) check.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#HideAction"
+      "summary": "Make a DC 15 Dexterity (Stealth) check while Heavily Obscured or behind Three-Quarters or Total Cover (see Cover) and out of an enemy's line of sight. On a success, you have the Invisible condition while hidden. For a creature to find you, it must succeed on a Wisdom (Perception) check using your original Dexterity (Stealth) check as the DC; otherwise, you stop being hidden if you make a sound, make an attack roll, or cast a spell with a Verbal component.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#HideAction"
     },
     {
       "name": "Influence",
       "summary": "Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature’s attitude.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#InfluenceAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#InfluenceAction"
     },
     {
       "name": "Magic",
       "summary": "Cast a spell, use a magic item, or use a magical feature.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#MagicAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#MagicAction"
     },
     {
       "name": "Ready",
       "summary": "Prepare to take an action in response to a trigger you define.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ReadyAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#ReadyAction"
     },
     {
       "name": "Search",
       "summary": "Make a Wisdom (Insight, Medicine, Perception, or Survival) check.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#SearchAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#SearchAction"
     },
     {
       "name": "Study",
       "summary": "Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#StudyAction"
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#StudyAction"
     },
     {
       "name": "Utilize",
-      "summary": "Use a nonmagical object.",
-      "ddbLink": "https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#UtilizeAction"
+      "summary": "Use a nonmagical object; don or doff a Shield.",
+      "ddbLink": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#UtilizeAction"
     }
   ]
 }
